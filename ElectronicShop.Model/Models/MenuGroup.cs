@@ -3,13 +3,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ElectronicShop.Model.Models
 {
-    [Table("Footers")]
-    public class Footer
+    [Table("MenuGroups")]
+    public class MenuGroup
     {
         [Key]
-        public string ID { set; get; }
+        public int ID { get; set; }
 
         [Required]
-        public string content { set; get; }
+        public string Name { get; set; }
     }
 }
