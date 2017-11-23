@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace ElectronicShop.Model.Abstract
 {
-    public interface ISeoable
+    public interface ISwitchable
     {
-        string MetaKeyWord { get; set; }
-        string MetaDescription { get; set; }
+        bool Status { get; set; }
     }
 }
