@@ -16,7 +16,7 @@ namespace ElectronicShop.Model.Models
 
         public DateTime VisitedDate { get; set; }
 
-        [MaxLength(50)]
+        [MaxLength(150)]
         public string IPAddress { get; set; }
     }
 }
