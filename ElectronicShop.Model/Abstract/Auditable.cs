@@ -16,17 +16,6 @@ namespace ElectronicShop.Model.Abstract
         [MaxLength(256)]
         public String UpdatedBy { get; set; }
 
-        DateTime IAuditable.CreatedDate
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-
-            set
-            {
-                throw new NotImplementedException();
-            }
-        }
+       
     }
 }
